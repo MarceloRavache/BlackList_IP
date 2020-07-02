@@ -1,0 +1,12 @@
+img{
+    width: 280px;
+    height: 200px;
+}
+.div-logo{
+    
+}
+.div-logo_item{
+    left: 40%;
+    position: relative;
+    margin-right: -60%;
+}
