@@ -27,7 +27,7 @@ const ListInput = ()=>{
                 {stateVerificar && <Button variant="primary" onClick={handleVerificarClear}>Verificar Novamente</Button>}
 
             </Form>
-            {stateVerificar && <ResultShow props={stateIp}/>}
+            {stateVerificar ? <ResultShow props={stateIp}/> : ""}
         </div>
         )
 }
